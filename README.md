@@ -5,9 +5,9 @@
 <h1 align="center">🚀 Painel 2.0 - Seu Painel Laravel Moderno! 🚀</h1>
 
 <p align="center">
-    <a href="https://github.com/seu-usuario/seu-repo"><img src="https://img.shields.io/github/stars/seu-usuario/seu-repo?style=social" alt="GitHub stars"></a>
-    <a href="https://github.com/seu-usuario/seu-repo/actions"><img src="https://github.com/seu-usuario/seu-repo/workflows/CI/badge.svg" alt="Build Status"></a>
-    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+    <a href="https://github.com/julianocm09/lerve_modular"><img src="https://img.shields.io/github/stars/julianocm09/lerve_modular?style=social" alt="GitHub stars"></a>
+    <a href="https://github.com/julianocm09/lerve_modular/actions"><img src="https://github.com/julianocm09/lerve_modular/workflows/CI/badge.svg" alt="Build Status"></a>
+   
 </p>
 
 ---
@@ -20,24 +20,19 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 - Pronto para produção
 - Totalmente customizável
 - Comunidade ativa no GitHub
-
+- voce pode usar o composer tbm so executar o codigo composer create-project julianomangold/laravel-modularizado
 ---
 
 ## 🚀 Comece Agora
 
 1. **Clone o repositório:**
      ```bash
-     git clone https://github.com/seu-usuario/seu-repo.git
+     git clone https://github.com/julianocm09/lerve_modular.git
      cd seu-repo
      ```
 
-2. **Instale as dependências:**
-     ```bash
-     composer install
-     npm install && npm run dev
-     ```
 
-3. **Configure o ambiente:**
+2. **Configure o ambiente:**
      ```bash
      cp .env.example .env
      php artisan key:generate
@@ -51,8 +46,7 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 
 ```bash
 # Exemplo:
-php artisan migrate
-php artisan db:seed
+ make:module            Cria a estrutura base de um módulo com Controller, Model, View, Rotas e adiciona no menu
 # ...
 ```
 
@@ -60,16 +54,13 @@ php artisan db:seed
 
 ## 🌟 Contribua!
 
-Curtiu o projeto? Deixe sua estrela no [GitHub](https://github.com/seu-usuario/seu-repo) e contribua para torná-lo ainda melhor! Pull requests e sugestões são sempre bem-vindos.
+Curtiu o projeto? Deixe sua estrela no [GitHub] https://github.com/julianocm09/lerve_modular.git e contribua para torná-lo ainda melhor! Pull requests e sugestões são sempre bem-vindos.
 
 ---
 
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
 <p align="center">
-    <b>Feito com ❤️ por [Seu Nome]</b>
+    <b>Feito com ❤️ por Juliano cristiano mangold</b>
 </p>
