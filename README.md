@@ -64,4 +64,7 @@ Curtiu o projeto? Deixe sua estrela no [GitHub] https://github.com/julianocm09/l
 <p align="center">
     <b>Feito com ❤️ por Juliano cristiano mangold</b>
 </p>
-12:35 16/06/2025
+22:22 16/06/2025
+
+
+codigo fexado so e posivel usalo com um token getado por min
