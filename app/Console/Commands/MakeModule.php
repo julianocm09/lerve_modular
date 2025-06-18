@@ -95,7 +95,7 @@ class MakeModule extends Command
         $menuContent = File::get($menuFile);
 
         // Bloco de menu novo
-        $newMenuBlock = "\n<li class=\"sub-menu dcjq-parent-li\">
+        $newMenuBlock = "\n<!--inicio menu modulo " . ucfirst($name) . "-->\n<li class=\"sub-menu dcjq-parent-li\">
     <a href=\"javascript:;\" class=\"dcjq-parent\">
         <i class=\"fa fa-laptop\"></i>
         <span>" . ucfirst($name) . "</span>
@@ -108,7 +108,7 @@ class MakeModule extends Command
             </a>
         </li>
     </ul>
-</li>\n";
+</li>\n<!--fim menu modulo " . ucfirst($name) . "-->\n";
 
         // Verifica se já existe no menu
         if (str_contains($menuContent, "<span>" . ucfirst($name) . "</span>")) {

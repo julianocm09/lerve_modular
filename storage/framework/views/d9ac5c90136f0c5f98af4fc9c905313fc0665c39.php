@@ -1,14 +1,13 @@
-@extends('layouts.app')
-@section('content')
+<?php $__env->startSection('content'); ?>
 
-@include('layouts.barasuperior')
+<?php echo $__env->make('layouts.barasuperior', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <aside>
             <div id="sidebar" class="nav-collapse " style="overflow: hidden; outline: none;" tabindex="0">
                 <!-- sidebar menu start-->
                 <ul class="sidebar-menu" id="nav-accordion">
                    
 
-                     @include('layouts.menu')
+                     <?php echo $__env->make('layouts.menu', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                   
 
                 </ul>
@@ -24,4 +23,6 @@
     </section>
 </section>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\xampp\htdocs\paineiestadoinicial\painel-2.0\modules/Julianocm/Views/hello.blade.php ENDPATH**/ ?>

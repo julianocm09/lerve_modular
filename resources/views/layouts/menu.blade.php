@@ -17,21 +17,6 @@
 
 
 
-<li class="sub-menu dcjq-parent-li">
-    <a href="javascript:;" class="dcjq-parent">
-        <i class="fa fa-laptop"></i>
-        <span>Julianocm</span>
-        <span class="dcjq-icon"></span>
-    </a>
-    <ul class="sub" style="display: none;">
-        <li>
-            <a href="{{ route('julianocm.index') }}">
-                <i class="fa fa-calendar"></i> Julianocm
-            </a>
-        </li>
-    </ul>
-</li>
-
 
 <li class="sub-menu dcjq-parent-li">
     <a href="javascript:;" class="dcjq-parent">
@@ -84,3 +69,21 @@
         </li>
     </ul>
 </li>
+
+
+<!--inicio menu modulo Saveform-->
+<li class="sub-menu dcjq-parent-li">
+    <a href="javascript:;" class="dcjq-parent">
+        <i class="fa fa-laptop"></i>
+        <span>Saveform</span>
+        <span class="dcjq-icon"></span>
+    </a>
+    <ul class="sub" style="display: none;">
+        <li>
+            <a href="{{ route('saveform.index') }}">
+                <i class="fa fa-calendar"></i> Saveform
+            </a>
+        </li>
+    </ul>
+</li>
+<!--fim menu modulo Saveform-->
