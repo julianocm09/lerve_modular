@@ -68,3 +68,4 @@ Curtiu o projeto? Deixe sua estrela no [GitHub] https://github.com/julianocm09/l
 
 
 codigo fexado so e posivel usalo com um token getado por min
+alteração 17/06/2025

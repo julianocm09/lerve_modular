@@ -1,5 +1,5 @@
  <li>
-     <a class="active" href="{{ route('dashboard') }}">
+     <a class="active" href="<?php echo e(route('dashboard')); ?>">
          <i class="fa fa-dashboard"></i>
          <span>Dashboard</span>
      </a>
@@ -10,7 +10,7 @@
          <span>Administração</span>
          <span class="dcjq-icon"></span></a>
      <ul class="sub" style="display: none;">
-         <li><a href="{{ route('ponto.index') }}"> <i class="fa fa-calendar"></i> Registro de Ponto</a></li>
+         <li><a href="<?php echo e(route('ponto.index')); ?>"> <i class="fa fa-calendar"></i> Registro de Ponto</a></li>
      </ul>
  </li>
 
@@ -25,7 +25,7 @@
     </a>
     <ul class="sub" style="display: none;">
         <li>
-            <a href="{{ route('julianocm.index') }}">
+            <a href="<?php echo e(route('julianocm.index')); ?>">
                 <i class="fa fa-calendar"></i> Julianocm
             </a>
         </li>
@@ -41,12 +41,12 @@
     </a>
     <ul class="sub" style="display: none;">
         <li>
-            <a href="{{ route('galeria.index') }}">
+            <a href="<?php echo e(route('galeria.index')); ?>">
                 <i class="fa fa-calendar"></i> Galeria
             </a>
         </li>
          <li>
-            <a href="{{ route('galeria.upload') }}">
+            <a href="<?php echo e(route('galeria.upload')); ?>">
                 <i class="fa fa-calendar"></i> upload
             </a>
         </li>
@@ -62,7 +62,7 @@
     </a>
     <ul class="sub" style="display: none;">
         <li>
-            <a href="{{ route('uzuarios.index') }}">
+            <a href="<?php echo e(route('uzuarios.index')); ?>">
                 <i class="fa fa-calendar"></i> Uzuarios
             </a>
         </li>
@@ -78,9 +78,10 @@
     </a>
     <ul class="sub" style="display: none;">
         <li>
-            <a href="{{ route('test.form') }}">
+            <a href="<?php echo e(route('test.form')); ?>">
                 <i class="fa fa-calendar"></i> TesteNeurodivergencia
             </a>
         </li>
     </ul>
 </li>
+<?php /**PATH D:\xampp\htdocs\paineiestadoinicial\painel-2.0\resources\views/layouts/menu.blade.php ENDPATH**/ ?>

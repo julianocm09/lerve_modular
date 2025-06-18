@@ -5,7 +5,7 @@ use App\Services\DeleteUserService;
 use App\Services\RenewPlanService;
 use Illuminate\Http\Request;
 use App\Models\User;
-
+use Barryvdh\DomPDF\Facade\Pdf;
 class DashboardController extends Controller
 {
     public function index(Request $request)
@@ -35,4 +35,8 @@ public function renovarPlano($id)
         return redirect()->back()->with('error', 'Erro ao renovar o plano.');
     }
 }
+
+
+
+
 }
