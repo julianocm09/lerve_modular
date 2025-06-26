@@ -17,21 +17,6 @@
 
 
 
-<li class="sub-menu dcjq-parent-li">
-    <a href="javascript:;" class="dcjq-parent">
-        <i class="fa fa-laptop"></i>
-        <span>Julianocm</span>
-        <span class="dcjq-icon"></span>
-    </a>
-    <ul class="sub" style="display: none;">
-        <li>
-            <a href="<?php echo e(route('julianocm.index')); ?>">
-                <i class="fa fa-calendar"></i> Julianocm
-            </a>
-        </li>
-    </ul>
-</li>
-
 
 <li class="sub-menu dcjq-parent-li">
     <a href="javascript:;" class="dcjq-parent">
@@ -84,4 +69,76 @@
         </li>
     </ul>
 </li>
+
+
+<!--inicio menu modulo Saveform-->
+<li class="sub-menu dcjq-parent-li">
+    <a href="javascript:;" class="dcjq-parent">
+        <i class="fa fa-laptop"></i>
+        <span>Saveform</span>
+        <span class="dcjq-icon"></span>
+    </a>
+    <ul class="sub" style="display: none;">
+        <li>
+            <a href="<?php echo e(route('saveform.index')); ?>">
+                <i class="fa fa-calendar"></i> Saveform
+            </a>
+        </li>
+    </ul>
+</li>
+<!--fim menu modulo Saveform-->
+
+
+<!--inicio menu modulo Codeexecutr-->
+<li class="sub-menu dcjq-parent-li">
+    <a href="javascript:;" class="dcjq-parent">
+        <i class="fa fa-laptop"></i>
+        <span>Codeexecutr</span>
+        <span class="dcjq-icon"></span>
+    </a>
+    <ul class="sub" style="display: none;">
+        <li>
+            <a href="<?php echo e(route('codeexecutr.index')); ?>">
+                <i class="fa fa-calendar"></i> Codeexecutr
+            </a>
+        </li>
+    </ul>
+</li>
+<!--fim menu modulo Codeexecutr-->
+
+
+<!--inicio menu modulo Idicador_partos-->
+<li class="sub-menu dcjq-parent-li">
+    <a href="javascript:;" class="dcjq-parent">
+        <i class="fa fa-laptop"></i>
+        <span>Idicador_partos</span>
+        <span class="dcjq-icon"></span>
+    </a>
+    <ul class="sub" style="display: none;">
+        <li>
+            <a href="<?php echo e(route('idicador_partos.index')); ?>">
+                <i class="fa fa-calendar"></i> Idicador_partos
+            </a>
+        </li>
+    </ul>
+</li>
+<!--fim menu modulo Idicador_partos-->
+
+
+<!--inicio menu modulo Arduino-->
+<li class="sub-menu dcjq-parent-li">
+    <a href="javascript:;" class="dcjq-parent">
+        <i class="fa fa-laptop"></i>
+        <span>Arduino</span>
+        <span class="dcjq-icon"></span>
+    </a>
+    <ul class="sub" style="display: none;">
+        <li>
+            <a href="<?php echo e(route('arduino.index')); ?>">
+                <i class="fa fa-calendar"></i> Arduino
+            </a>
+        </li>
+    </ul>
+</li>
+<!--fim menu modulo Arduino-->
 <?php /**PATH D:\xampp\htdocs\paineiestadoinicial\painel-2.0\resources\views/layouts/menu.blade.php ENDPATH**/ ?>

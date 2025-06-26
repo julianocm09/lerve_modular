@@ -92,6 +92,24 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
   </script>
+  <script>
+    async function atualizarFrase() {
+        try {
+            const res = await fetch("{{ route('frase.aleatoria') }}");
+            const data = await res.json();
+
+            document.getElementById('frase').innerHTML = `
+                <small>“${data.texto}”</small>
+                <small>— ${data.autor}</small>
+            `;
+        } catch (error) {
+            console.error('Erro ao buscar frase:', error);
+        }
+    }
+
+    atualizarFrase(); // Primeira carga
+    setInterval(atualizarFrase, 10000); // Atualiza a cada 10 segundos
+</script>
 
 
   </body>

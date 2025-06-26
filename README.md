@@ -23,22 +23,7 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 - voce pode usar o composer tbm so executar o codigo composer create-project julianomangold/laravel-modularizado
 ---
 
-## 🚀 Comece Agora
 
-1. **Clone o repositório:**
-     ```bash
-     git clone https://github.com/julianocm09/lerve_modular.git
-     cd seu-repo
-     ```
-
-
-2. **Configure o ambiente:**
-     ```bash
-     cp .env.example .env
-     php artisan key:generate
-     ```
-
----
 
 ## ⚡ Comandos Artisan Úteis
 
@@ -46,20 +31,11 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 
 ```bash
 # Exemplo:
- make:module            Cria a estrutura base de um módulo com Controller, Model, View, Rotas e adiciona no menu
+ php artisan make:module            Cria a estrutura base de um módulo com Controller, Model, View, Rotas e adiciona no menu
+   php artisan make:view              Cria uma nova view Blade com um esboço padrão
 # ...
 ```
 
----
-
-## 🌟 Contribua!
-
-Curtiu o projeto? Deixe sua estrela no [GitHub] https://github.com/julianocm09/lerve_modular.git e contribua para torná-lo ainda melhor! Pull requests e sugestões são sempre bem-vindos.
-
----
-
-
----
 
 <p align="center">
     <b>Feito com ❤️ por Juliano cristiano mangold</b>

@@ -7,6 +7,7 @@
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
                 <!--  notification start -->
+                  
                 <ul class="nav top-menu">
                     <!-- settings start -->
                     <li class="dropdown">
@@ -210,6 +211,7 @@
                     <!-- notification dropdown end -->
                 </ul>
                 <!--  notification end -->
+                  <ul class="btn btn-outline-primary mb-2" id="frase"></ul>
             </div>
             <div class="top-nav ">
                 <!--search & user info start-->

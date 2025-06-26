@@ -60,3 +60,10 @@ Route::post('/posts', [VisualisarfuncionarioController::class, 'store'])->name('
 
 Route::get('/ponto', [PontoController::class, 'index'])->name('ponto.index');
 Route::post('/ponto', [PontoController::class, 'store'])->name('ponto.store');
+Route::get('/frase-aleatoria', function () {
+    [$texto, $autor] = explode(' - ', \Illuminate\Foundation\Inspiring::quotes()->random(), 2);
+    return response()->json([
+        'texto' => trim($texto),
+        'autor' => trim($autor)
+    ]);
+})->name('frase.aleatoria');
