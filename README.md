@@ -25,13 +25,15 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 
 
 
-## ⚡ Comandos Artisan Úteis
+## ⚡ Comandos Úteis
 
 > _Adicione aqui seus comandos artisan personalizados ou mais utilizados!_
 
 ```bash
 # Exemplo:
-composer create-project julianomangold/laravel-modularizado
+composer create-project julianomangold/laravel-modularizado nome_do_projeto
+
+
  php artisan make:module            Cria a estrutura base de um módulo com Controller, Model, View, Rotas e adiciona no menu
    php artisan make:view              Cria uma nova view Blade com um esboço padrão
 # ...
