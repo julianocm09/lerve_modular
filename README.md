@@ -19,8 +19,8 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 - Código limpo e organizado
 - Pronto para produção
 - Totalmente customizável
-- Comunidade ativa no GitHub
-- voce pode usar o composer tbm so executar o codigo composer create-project julianomangold/laravel-modularizado
+
+- voce pode usar o composer tbm so executar o codigo 
 ---
 
 
@@ -31,6 +31,7 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 
 ```bash
 # Exemplo:
+composer create-project julianomangold/laravel-modularizado
  php artisan make:module            Cria a estrutura base de um módulo com Controller, Model, View, Rotas e adiciona no menu
    php artisan make:view              Cria uma nova view Blade com um esboço padrão
 # ...
@@ -40,8 +41,4 @@ O **Painel 2.0** é um painel administrativo moderno, construído com Laravel, p
 <p align="center">
     <b>Feito com ❤️ por Juliano cristiano mangold</b>
 </p>
-22:22 16/06/2025
-
-
-codigo fexado so e posivel usalo com um token getado por min
-alteração 17/06/2025
+Atualizado 28/06/2028

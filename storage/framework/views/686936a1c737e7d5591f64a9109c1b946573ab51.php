@@ -71,22 +71,7 @@
 </li>
 
 
-<!--inicio menu modulo Saveform-->
-<li class="sub-menu dcjq-parent-li">
-    <a href="javascript:;" class="dcjq-parent">
-        <i class="fa fa-laptop"></i>
-        <span>Saveform</span>
-        <span class="dcjq-icon"></span>
-    </a>
-    <ul class="sub" style="display: none;">
-        <li>
-            <a href="<?php echo e(route('saveform.index')); ?>">
-                <i class="fa fa-calendar"></i> Saveform
-            </a>
-        </li>
-    </ul>
-</li>
-<!--fim menu modulo Saveform-->
+
 
 
 <!--inicio menu modulo Codeexecutr-->
@@ -141,4 +126,22 @@
     </ul>
 </li>
 <!--fim menu modulo Arduino-->
+
+
+<!--inicio menu modulo PixPagamentoController-->
+<li class="sub-menu dcjq-parent-li">
+    <a href="javascript:;" class="dcjq-parent">
+        <i class="fa fa-laptop"></i>
+        <span>PixPagamentoController</span>
+        <span class="dcjq-icon"></span>
+    </a>
+    <ul class="sub" style="display: none;">
+        <li>
+            <a href="<?php echo e(route('pixpagamentocontroller.index')); ?>">
+                <i class="fa fa-calendar"></i> PixPagamentoController
+            </a>
+        </li>
+    </ul>
+</li>
+<!--fim menu modulo PixPagamentoController-->
 <?php /**PATH D:\xampp\htdocs\paineiestadoinicial\painel-2.0\resources\views/layouts/menu.blade.php ENDPATH**/ ?>
